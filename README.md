@@ -1,6 +1,6 @@
 User Service - RBAC, JWT Auth, Docker, Redis, and PostgreSQL
 
-This project is a user service and authorization system built with Golang. The system provides authentication and authorization using Role-Based Access Control (RBAC) and JSON Web Token (JWT).
+This project is a user service and authorization system built with Golang (gin fw). The system provides authentication and authorization using Role-Based Access Control (RBAC) and JSON Web Token (JWT).
 
 Features:
 
@@ -13,7 +13,7 @@ Features:
 Setup:
 
 -    Install the required prerequisites (Docker, Redis, PostgreSQL).
--    Clone the project: git clone https://github.com/<your_username>/user-service.git
+-    Clone the project: git clone https://github.com/makseli/User-RBAC-Role-Based-Access-Control-in-Golang-with-Postgresql.git
 -    Start Docker containers by running the command: docker-compose up -d.
 -    Connect to the PostgreSQL database and perform the necessary configuration.
 -    API documentation can be found at http://localhost:8080/docs.
